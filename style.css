@@ -1,0 +1,429 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+body{
+  background: linear-gradient(
+      to right bottom,
+      rgba(13, 4, 49, 0.752),
+      rgba(38, 7, 49, 0.781)
+    ),
+    url("./assets/pexels-maxyne-barcel-10402282\ 1.png");
+  background-size: cover;
+  height: 100vh;
+  color: #f4be2c;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.container{
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 40px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list-item {
+  list-style-type: none;
+  font-size: 16px;
+  margin: 0 30px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button-small {
+  background-color: #ef5354;
+  border: none;
+  color: #ffffff;
+  padding: 10px 30px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 100px;
+}
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-heading {
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 80px;
+  text-align: center;
+  padding: 0px 10%;
+  /* border: 1px solid white; */
+  width: 85%;
+}
+
+.button-large {
+  margin-top: 40px;
+  background-color: #ef5354;
+  width: 20%;
+  border: none;
+  color: #ffffff;
+  padding: 20px 30px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.bottom img {
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  height: 9rem;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .logo {
+    margin: 20px;
+    height: 20px;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .list-item {
+    list-style-type: none;
+    font-size: 14px;
+    margin: 0 10px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  .button-small {
+    background-color: #ef5354;
+    border: none;
+    color: #ffffff;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 10px;
+  }
+
+  .hero-heading {
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 0px 10%;
+    /* border: 1px solid white; */
+    width: 85%;
+  }
+  
+  .button-large {
+    margin-top: 20px;
+    background-color: #ef5354;
+    width: 50%;
+    border: none;
+    color: #ffffff;
+    padding: 10px 10px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .bottom img {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    height: 7rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .logo {
+    margin: 20px;
+    height: 20px;
+  }
+  .list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .list-item {
+    list-style-type: none;
+    font-size: 14px;
+    margin: 0 10px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  .button-small {
+    background-color: #ef5354;
+    border: none;
+    color: #ffffff;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 10px;
+  }
+
+  .hero-heading {
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 0px 10%;
+    /* border: 1px solid white; */
+    width: 85%;
+  }
+  
+  .button-large {
+    margin-top: 20px;
+    background-color: #ef5354;
+    width: 50%;
+    border: none;
+    color: #ffffff;
+    padding: 10px 10px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .bottom img {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    height: 7rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .logo {
+    margin: 30px;
+    height: 30px;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .list-item {
+    list-style-type: none;
+    font-size: 16px;
+    margin: 0 20px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .button-small {
+    background-color: #ef5354;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 10px;
+  }
+
+  .hero-heading {
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px 10%;
+    /* border: 1px solid white; */
+    width: 85%;
+  }
+  
+  .button-large {
+    margin-top: 20px;
+    background-color: #ef5354;
+    width: 30%;
+    border: none;
+    color: #ffffff;
+    padding: 10px 10px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .bottom img {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    height: 7rem;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .logo {
+    margin: 40px;
+    height: 40px;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .list-item {
+    list-style-type: none;
+    font-size: 18px;
+    margin: 10px 20px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .button-small {
+    background-color: #ef5354;
+    border: none;
+    color: #ffffff;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 10px;
+  }
+
+  .hero-heading {
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 65px;
+    text-align: center;
+    padding: 10px 10%;
+    /* border: 1px solid white; */
+    width: 85%;
+  }
+  
+  .button-large {
+    margin-top: 20px;
+    background-color: #ef5354;
+    width: 25%;
+    border: none;
+    color: #ffffff;
+    padding: 10px 10px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .bottom img {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    height: 7rem;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1450px and up) */
+@media only screen and (min-width: 1350px) {
+  body{
+    background: linear-gradient(
+        to right bottom,
+        rgba(13, 4, 49, 0.752),
+        rgba(38, 7, 49, 0.781)
+      ),
+      url("./assets/pexels-maxyne-barcel-10402282\ 1.png");
+    background-size: cover;
+    height: 100vh;
+    color: #f4be2c;
+  }
+  
+  /* ------------------------------ */
+  /* ---------- NAVBAR ------------ */
+  /* ------------------------------ */
+  .container{
+    height: 100vh;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    margin: 40px;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .list-item {
+    list-style-type: none;
+    font-size: 16px;
+    margin: 0 30px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .button-small {
+    background-color: #ef5354;
+    border: none;
+    color: #ffffff;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 100px;
+  }
+  /* ------------------------------ */
+  /* ---------- HERO ------------ */
+  /* ------------------------------ */
+  
+  .hero {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-heading {
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 80px;
+    text-align: center;
+    padding: 0px 10%;
+    /* border: 1px solid white; */
+    width: 85%;
+  }
+  
+  .button-large {
+    margin-top: 40px;
+    background-color: #ef5354;
+    width: 20%;
+    border: none;
+    color: #ffffff;
+    padding: 20px 30px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .bottom img {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    height: 9rem;
+  }   
+}
