@@ -1,11 +1,14 @@
-### Project 2 - Food Restaurant Home Page
+#### Name: Sugnana Murthy R
 ---
-<br>
+
+#### Project 2 - Food Restaurant Home Page
+---
+
 
 ![Developed Using HTML](https://img.shields.io/badge/Developed%20Using-HTML%20%26%20CSS-yellowgreen)
 
 ---
-<br>
+
 
 #### Skills Accquired
 - Navigation bar using CSS & flex
@@ -26,5 +29,5 @@
 ---
 <br>
 
-[![Project Demo](https://img.shields.io/badge/Project%20Demo-Click%20Here%20for%20%20Live%20Link-yellowgreen?style=flat-square&logo=Product%20Hunt)]()
+[![Project Demo](https://img.shields.io/badge/Project%20Demo-Click%20Here%20for%20%20Live%20Link-yellowgreen?style=flat-square&logo=Product%20Hunt)](https://smrproject2.netlify.app/)
 ##### Time Taken: 4 hours (approx)
